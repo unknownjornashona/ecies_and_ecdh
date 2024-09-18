@@ -1,0 +1,48 @@
+# Doxyfile 1.8.20
+
+# 项目名称
+PROJECT_NAME           = "Your Project Name"
+
+# 项目版本
+PROJECT_NUMBER         = "1.0.0"
+
+# 项目描述
+PROJECT_BRIEF          = "项目简要描述"
+
+# 输入的源文件目录
+INPUT                  = ./src
+
+# 输出目录
+OUTPUT_DIRECTORY       = ./docs
+
+# 设置生成的文档类型
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+# 设置是否生成依赖图
+GENERATE_TREEVIEW      = YES
+
+# 代码文件扩展名
+EXTENSION_MAPPING      = .h=cpp .c=cpp .cpp=cpp
+
+# 设置生成的图形
+HAVE_DOT               = YES
+DOT_GRAPH_MAX_NODES    = 50
+DOT_TRANSPARENT        = YES
+
+# 让 Doxygen 生成类成员的文档
+GENERATE_XML           = YES
+
+# 选择是否创建一个 HTML 索引
+HTML_HEADER            = "header.html"
+
+# 选择是否创建一个 HTML 页脚
+HTML_FOOTER            = "footer.html"
+
+# 选择是否生成类图
+CLASS_DIAGRAMS         = YES
+
+# 文件文档化规则
+OPTIMIZE_OUTPUT_FOR_C  = YES
+OPTIMIZE_OUTPUT_FOR_FORTRAN = NO
+OPTIMIZE_FOR_Cplusplus  = NO
