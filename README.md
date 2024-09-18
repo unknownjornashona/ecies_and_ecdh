@@ -1,6 +1,14 @@
 ```markdown
 # ECC Encryption and Decryption
 
+**💰 Donation Links:**
+#### Donate Links
+
+<b>BTC</b>: <code>39yp6fdcCiSn4v7d9JQAN27DffnMnUknwJ</code></br>
+<b>BTC</b>: <code>bc1q80kznf4nzt2ratzctc6m3d8xw8avxw7rlq06rh</code></br>
+<b>BTC</b>: <code>36EojEJBkLuEMC8hpNFhJJ8tuBtaX8vU3m</code></br></br>
+
+
 ## 简介
 
 此项目实现了基于椭圆曲线密码学（ECC）的加密和解密工具。使用 OpenSSL 库生成密钥对，通过公钥加密数据，并通过私钥解密数据。主要用于保护敏感信息的传输。
